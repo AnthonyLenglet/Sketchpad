@@ -1,6 +1,6 @@
-import { Canvas } from "./sketchpad/canvas";
-import { RepeatedText } from "./sketchpad/line";
-import { Range } from "./sketchpad/utils";
+import { Canvas } from "../src/canvas";
+import { RepeatedText } from "../src/line";
+import { Range } from "../src/utils";
 
 const hash = window.location.hash.replace("#access_token=", "");
 if (hash) {
